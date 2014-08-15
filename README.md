@@ -23,3 +23,11 @@ Currently, the only attribute it takes is `axis`.
 * `stick` attribute means you click on them to interact instead of hovering. They stay put after you click.
 * `direction` attribute allows you to flip one way or the other. Think **clockwise** vs **counter-clockwise**.
 * `origin` attribute lets you specify a CSS transform-origin, meaning the card can appear to be hinged from one side.
+
+## Performance
+
+It should go without saying, but a plain CSS implementation of this is much more lightweight than using Polymer. I made this in order to learn about Polymer and Web Components. So there you have it.
+
+## Demo
+
+[Clicky clicky](http://rupl.github.io/polymer-flip-card/)
