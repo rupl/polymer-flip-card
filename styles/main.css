@@ -5,7 +5,7 @@ body {
 
 .hero-unit {
   margin: 50px auto 0 auto;
-  width: 300px;
+  width: 340px;
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
@@ -23,3 +23,10 @@ body {
   background: #ccc;
   color: #000;
   padding: 0.2em 0; }
+
+.credits {
+  width: 400px;
+  margin: 1em auto;
+  text-align: center;
+  opacity: .6;
+}
