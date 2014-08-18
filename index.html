@@ -9,13 +9,18 @@
   <link rel="stylesheet" href="styles/main.css">
   <script src="bower_components/platform/platform.js"></script>
   <link rel="import" href="elements/elements.vulcanized.html">
+  <style>
+    .heart {
+      color: #f03;
+    }
+  </style>
 </head>
 <body unresolved>
   <div class="hero-unit">
     <h2>3D <code>&lt;flip-card></code> element</h2>
     <p>Mouseover the cards to flip them over.</p>
 
-    <flip-card axis="y">
+    <flip-card>
       <front>Y axis</front>
       <back>Heyo!</back>
     </flip-card>
@@ -31,22 +36,30 @@
     <pre><code>&lt;flip-card axis="y">
   &lt;front>Y axis&lt;/front>
   &lt;back>Heyo!&lt;/back>
-&lt;/flip-card>
-    </code></pre>
+&lt;/flip-card></code></pre>
+
+    <h2>Installation</h2>
+
+    <p>Via bower:</p>
+    <pre><code>bower install flip-card</code></pre>
+
+    <p>Via git:</p>
+    <pre><code>git clone https://github.com/rupl/flip-card.git</code></pre>
 
     <h2>Further reading</h2>
     <ul>
-      <li><a href="http://www.polymer-project.org/">Polymer Project</a></li>
+      <li><a href="http://rupl.github.io/flip-card/components/flip-card/">Docs for <code>&lt;flip-card></code> element</a></li>
       <li><a href="http://css3playground.com/3d-flip-cards/">Original CSS 3D flip card demo</a></li>
+      <li><a href="http://www.polymer-project.org/">Polymer Project</a></li>
     </ul>
   </div>
 
   <p class="credits">
-    <code>&lt;flip-card></code> element made with ❤ by <a href="http://chrisruppel.com">Chris Ruppel</a>.<br>
-    You can look at the <a href="https://github.com/rupl/polymer-flip-card">source on GitHub</a>.<br>
+    <code>&lt;flip-card></code> element made with <span class="heart">❤</span> by <a href="http://chrisruppel.com">Chris Ruppel</a>.<br>
+    You can view the <a href="https://github.com/rupl/flip-card">source on GitHub</a>.<br>
     All other code is licensed separately by authors.
   </p>
 
-<script src="scripts/app.js"></script>
+  <script src="scripts/app.js"></script>
 </body>
 </html>
